@@ -1,0 +1,42 @@
+
+
+.slidingVertical{
+    display: inline-block;
+    position: relative;
+}
+
+.slidingVertical span{
+    animation: topToBottom 12.5s linear infinite 0s;
+    -ms-animation: topToBottom 12.5s linear infinite 0s;
+    -webkit-animation: topToBottom 12.5s linear infinite 0s;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.slidingVertical span:nth-child(2){
+    animation-delay: 2.5s;
+}
+.slidingVertical span:nth-child(3){
+    animation-delay: 5s;
+}
+.slidingVertical span:nth-child(4){
+    animation-delay: 7.5s;
+}
+.slidingVertical span:nth-child(5){
+    animation-delay: 10s;
+}
+
+/*topToBottom Animation*/
+
+@keyframes topToBottom{
+    0% { opacity: 0; }
+    8% { opacity: 0; transform: translateY(-20px); }
+    10% { opacity: 1; transform: translateY(0px); }
+    28% { opacity: 1; transform: translateY(0px); }
+    30% { opacity: 0; transform: translateY(20px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}

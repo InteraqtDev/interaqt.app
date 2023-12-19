@@ -29,6 +29,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-@tailwind base;
+@tailwind base; /* Preflight will be injected here */
+
 @tailwind components;
+
 @tailwind utilities;
