@@ -6,7 +6,7 @@ sidebar_position: 3
 
 制作一个请假的简单应用。
 员工创建请假申请，主管和上级主管都审批成功后，申请生效。
-开始这一步之前，请确保你已经按照 [Quick Start](QuickStart.md) 中的正确创建了项目。
+开始这一步之前，请确保你已经按照 [Quick Start](./GetStarted) 中的正确创建了项目。
 
 接下来步骤中的代码都将在 `app/index.ts` 中完成。
 

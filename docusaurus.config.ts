@@ -102,10 +102,6 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/InteraqtDev/interaqt',
             },
@@ -133,6 +129,7 @@ const config: Config = {
       };
     },
   ],
+  onBrokenLinks: 'ignore',
 };
 
 export default config;

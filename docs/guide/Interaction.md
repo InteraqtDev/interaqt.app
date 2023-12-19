@@ -4,7 +4,7 @@
 
 An Interaction represents an action a user can perform, similar to a post API.
 Unlike other web frameworks, we don't need to declare how data should be handled when an interaction occurs.
-Instead, we reference Interactions backward in data definitions, as detailed in [Use Computed Data](UseComputedData.md).
+Instead, we reference Interactions backward in data definitions, as detailed in [Use Computed Data](./ComputedData).
 
 A simple friendship interaction is as follows:
 

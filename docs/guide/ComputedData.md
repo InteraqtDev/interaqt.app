@@ -127,7 +127,7 @@ const postRevisionEntity = Entity.create({
 ### RelationStateMachine
 
 Use a state machine to represent the creation/deletion/modification of a relation.
-For more details, see [Use Relation StateMachine](./UseRelationStateMachine.md).
+The document is coming soon.
 
 ## Representing fields in Entity/Relation
 ### RelationBasedAny

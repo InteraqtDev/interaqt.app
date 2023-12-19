@@ -133,7 +133,7 @@ const postRevisionEntity = Entity.create({
 ### RelationStateMachine
 
 利用状态机来表示 relation 的建立/删除/修改。
-详情请见 [Use Relation StateMachine](./UseRelationStateMachine.md)
+文档即将上线。
 
 
 ## 用来表示 Entity/Relation 中的字段
