@@ -1,8 +1,9 @@
 # Quick Example
 
-Create a simple application for leave requests. The application becomes effective after both the supervisor and the higher-level supervisor approve an employee's leave request. Ensure you have correctly created the project as instructed in Quick Start before beginning.
+Create a simple application for leave requests. The application becomes effective after both the supervisor and the higher-level supervisor approve an employee's leave request. 
+Ensure you have correctly created the project as instructed in [Get Started](../get-started) before beginning.
 
-The following code will be completed in app/index.ts.
+The following code will be completed in `app/index.ts`.
 
 ## Define Basic Data Types and Interactions in the System
 
@@ -269,4 +270,5 @@ All interaction actions will generate independent interfaces:
 /api/[interaction-name]
 ```
 They can be accessed from the frontend. You can view all interaction action interfaces and entity relationship information through the dashboard management interface.
-```
+
+You can check out more examples in `examples` folder under the root directory of your project.
