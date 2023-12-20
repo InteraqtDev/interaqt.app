@@ -76,10 +76,11 @@ RequestApprovedProp.computedData = RelationBasedEvery.create({
 
 There's nothing new under the sun. You may have encountered similar approaches in various contexts, such as:
 
-Reactive programming
-Functional programming
-Event-driven programming
-Even the emphasis on "what is being expressed" over "how it's done" in programming education aligns with this philosophy.
+- Reactive programming
+- Functional programming
+- Event-driven programming
+- Even the emphasis on "what is being expressed" over "how it's done" in programming education aligns with this philosophy.
+
 Interaqt has made key advancements by incorporating the concept of "what is being expressed" into application frameworks. Its most important features include:
 
 Using a cross-disciplinary approach from cognitive science, Interaqt ensures strong expressive capability, covering all user needs in targeted scenarios.

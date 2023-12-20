@@ -31,9 +31,12 @@ export default function Home(): JSX.Element {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center">
-                <div className="text-center text-lg font-mono font-bold mb-6">
-                    <a className="button button--secondary" href="/docs/get-started">Get Started</a>
+            <div className="flex flex-col items-center justify-center ">
+                <div className=" text-lg font-mono  mb-6 max-w-2xl">
+                    To start understanding how to use Interaqt, refer to the Concepts documentation, or directly view the Use-With-ChatGPT document for a quick experience on how to create a functional system with ChatGPT in just a few minutes.
+                </div>
+                <div className="text-center mb-16">
+                    <a className="button button--secondary" href="/docs/concepts">Concepts</a>
                     <a className="button button--secondary margin-left--xs" href="/docs/tutorial/use-with-gpt">Use With ChatGPT!</a>
                 </div>
             </div>

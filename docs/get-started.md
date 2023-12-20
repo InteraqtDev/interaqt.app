@@ -1,35 +1,37 @@
 # Get Started
 
-## What is @interaqt/runtime
-
-@interaqt/runtime is a brand-new application framework. For better understanding, it can be considered as an alternative to a Web Framework + ORM/CMS + BPM Engine.
-
-## Why create @interaqt/runtime
-
-@interaqt/runtime implements a simpler yet more challenging paradigm:
-
-```
-data = computation(events)
-```
-
-With this paradigm, we consistently describe what the data in the system is, and with a single line of code manipulating data, a complete application can be implemented. The intuitive features include:
-- Almost achieving the implementation of software once the requirements are modeled.
-- No manually written code for data changes, thus eliminating bugs due to human error.
-
-More importantly, the reason for creating @interaqt/runtime is:
-- After modeling requirements, its code and software architecture can begin to be automatically generated, no longer relying on human experience.
-- Requirements remain unchanged, but architecture can automatically adapt with changes in data volume and concurrency.
-
-## Using @interaqt/runtime
-
-### Step 1: Installation
+## Step 1: Installation
 
 ```bash
 npx create-interaqt-app myapp
 cd myapp
 ```
 
-### Step 2: start the project and dashboard
+
+Upon entering the newly created application directory, you will encounter the following directory structure:
+
+```markdown
+├── app
+│    └── index.ts
+├── dashboard
+├── data.ts
+├── database.db
+├── install.ts
+├── package.json
+├── server.ts
+└── // Other files
+```
+
+Where:
+
+- The app directory contains the definition of your entire application.
+- dashboard is an optional application management interface.
+- data.ts contains your initial data.
+- database.db is your SQLite database file.
+- install.ts is a script for initializing the database.
+- server.ts is a script for starting the application.
+
+## Step 2: start the project and dashboard
 ```bash
 npm run dev
 ```
@@ -43,3 +45,4 @@ npm start
 Your application is now running at http://localhost:4000 by default.
 Your dashboard is now running at http://localhost:5173 by default.
 
+You may find a lot of examples under `examples` directory under your project root directory.
