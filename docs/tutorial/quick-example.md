@@ -7,7 +7,7 @@ The following code will be completed in `app/index.ts`.
 
 ## Define Basic Data Types and Interactions in the System
 
-Step1: Define the User Type and the Hierarchical Relationship
+### 1. Define the User Type and the Hierarchical Relationship
 
 ```typescript
 const UserEntity = Entity.create({
@@ -29,7 +29,7 @@ Note: Any system must define an Entity named 'User', which the system will autom
 
 
 
-Step2: Define the Request Type for Leave Applications:
+### 2. Define the Request Type for Leave Applications
 ```typescript
 const RequestEntity= Entity.create({
     name: 'Request',
@@ -41,7 +41,7 @@ const RequestEntity= Entity.create({
 })
 ```
 
-Step3: Define the User Interaction for Creating an Application
+### 3. Define the User Interaction for Creating an Application
 
 ```typescript
 export const createInteraction = Interaction.create({
@@ -60,7 +60,7 @@ export const createInteraction = Interaction.create({
 
 Instead of detailing how to handle data during interactions, we reference interactions in the data content definition. This is the major difference between Interaqt and other frameworks and is key to the concept of describing data for the application to run. The following sections will demonstrate how to reference these interactions.
 
-Step4: Define the Relationship Between Supervisors and Requests, and the Approval Status
+### 4. Define the Relationship Between Supervisors and Requests, and the Approval Status
 
 ```typescript
 const reviewerRelation = Relation.create({
@@ -133,7 +133,7 @@ createInteraction
 approveInteraction
 When the referenced interaction occurs, the corresponding Relation data is automatically created, and the Property is automatically modified. Note that since our application requires approval from two levels of supervisors, the opinion of one supervisor is recorded in the relationship field with the application.
 
-Step5: Define the Supervisor's Approval Interaction
+### 5. Define the Supervisor's Approval Interaction
 
 ```typescript
 // 同意
@@ -175,7 +175,7 @@ export const approveInteraction = Interaction.create({
 
 In this definition, we used Attributive to restrict the parameters accompanying the interaction. The code above restricts supervisors to only approve requests that are 'mine' and in 'pending' status.
 
-Step6: Define the Final Status of the Request
+### 6. Define the Final Status of the Request
 
 ```typescript
 RequestEntity.properties.push(
@@ -216,7 +216,7 @@ RequestEntity.properties.push(
 ```
 In this code section, we used more computed data types RelationBasedEvery and RelationBasedAny to define whether the Request is approved or rejected by all. A computed string type field result is also created for database filtering.
 
-Step7: Implement the GET Interaction to View Pending Approval Requests
+### 7. Implement the GET Interaction to View Pending Approval Requests
 ```typescript
 const MineDataAttr = DataAttributive.create({
     name: 'MyData',
@@ -247,7 +247,7 @@ const getMyPendingRequests = Interaction.create({
 ```
 In this step, we defined a getMyPendingRequests interaction to retrieve requests awaiting the current user's approval.
 
-Step8: Define Global State
+### 8. Define Global State
 Some data is global. We can define it using State.create. For example, how many requests have been approved globally:
 
 ```typescript
@@ -264,7 +264,7 @@ const totalApprovedState = State.create({
 })
 ```
 
-Step9: Use the Interface to Trigger Interaction Actions in the Frontend
+### 9. Use the Interface to Trigger Interaction Actions in the Frontend
 All interaction actions will generate independent interfaces:
 ```
 /api/[interaction-name]
