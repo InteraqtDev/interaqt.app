@@ -24,12 +24,15 @@ cd myapp  // 安装成功后, 进入项目目录
 
 ### 2.1 上传 index.d.ts 和 Prompt-1
 - 下载 [index.d.ts](https://raw.githubusercontent.com/InteraqtDev/interaqt/main/packages/runtime/docs/zh_cn/prompt/index.d.ts)，将文件作为附件上传。
-- 贴入 [Prompt-1](https://raw.githubusercontent.com/InteraqtDev/interaqt/main/packages/runtime/docs/zh_cn/prompt/PROMPT.md) 的内容。 
+- 贴入 [Prompt-1](https://raw.githubusercontent.com/InteraqtDev/interaqt/main/packages/runtime/docs/zh_cn/prompt/PROMPT.md) 的内容。
+
+<video width="100%" src="/use-with-gpt-1-compressed.mp4" autoplay playsinline muted controls></video>
 
 
 ### 2.2. 上传 Prompt-2
 - 贴入 [Prompt-2](https://raw.githubusercontent.com/InteraqtDev/interaqt/main/packages/runtime/docs/zh_cn/prompt/PROMPT-2.md)。
 
+<video width="100%" src="/use-with-gpt-2-compressed.mp4" autoplay playsinline muted controls></video>
 当它完成学习，你就可以要求 ChatGPT 产出任何系统的代码了。直接使用文字描述、或者上传活动图都可以。
 
 ## 3. 检查 ChatGPT 返回给你的代码

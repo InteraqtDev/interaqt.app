@@ -11,8 +11,8 @@ export default function Home(): JSX.Element {
     const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
-            title={`Hello from ${siteConfig.title}`}
-            description="Description will go into a meta tag in <head />">
+            title={`${siteConfig.title}`}
+            description="Better application framework for LLM era.">
             <main className="flex flex-col items-center justify-center sm:py-72 py-32 ">
                 <div className="max-w-2xl min-w-xl w-2/3">
                     <img src="/img/logo.svg" className="w-full"/>
@@ -28,6 +28,13 @@ export default function Home(): JSX.Element {
             <div className="flex justify-center mb-16">
                 <div className="max-w-4xl  ring ring-1 ring-gray-200 rounded inset-0 block">
                     <video src="/demo-square-compressed.mp4" controls className="w-full"/>
+                </div>
+            </div>
+
+            <div className="flex flex-col items-center justify-center">
+                <div className="text-center text-lg font-mono font-bold mb-6">
+                    <a className="button button--secondary" href="#url">Get Started</a>
+                    <a className="button button--secondary margin-left--xs" href="#url">Use With ChatGPT!</a>
                 </div>
             </div>
 

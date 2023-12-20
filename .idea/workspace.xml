@@ -6,25 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Concepts.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concepts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/GetStarted.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/Activity.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/activity.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/ComputedData.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/computed-data.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/EntityAndRelation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/entity-and-relation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/Interaction.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/interaction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial/use-with-gpt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tutorial/use-with-gpt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/Concepts.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/concepts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/GetStarted.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/get-started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/Interaqt-Go.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/interaqt-go.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/Interaqt-Java.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/interaqt-java.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/Activity.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/activity.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/Attributive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/ComputedData.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/computed-data.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/EntityAndRelation.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/entity-and-relation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/Interaction.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/interaction.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/tutorial/use-with-gpt.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/tutorial/use-with-gpt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebars.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +86,7 @@
       <updated>1702734310032</updated>
       <workItem from="1702734311116" duration="14736000" />
       <workItem from="1702883835829" duration="11372000" />
-      <workItem from="1702975333180" duration="11783000" />
+      <workItem from="1702975333180" duration="13205000" />
     </task>
     <servers />
   </component>
