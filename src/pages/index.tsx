@@ -33,8 +33,8 @@ export default function Home(): JSX.Element {
 
             <div className="flex flex-col items-center justify-center">
                 <div className="text-center text-lg font-mono font-bold mb-6">
-                    <a className="button button--secondary" href="#url">Get Started</a>
-                    <a className="button button--secondary margin-left--xs" href="#url">Use With ChatGPT!</a>
+                    <a className="button button--secondary" href="/docs/get-started">Get Started</a>
+                    <a className="button button--secondary margin-left--xs" href="/docs/tutorial/use-with-gpt">Use With ChatGPT!</a>
                 </div>
             </div>
 
