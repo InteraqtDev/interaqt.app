@@ -75,7 +75,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/InderaqtDev/interaqt',
+          href: 'https://github.com/InteraqtDev/interaqt',
           label: 'GitHub',
           position: 'right',
         },
