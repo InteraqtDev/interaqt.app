@@ -1,8 +1,4 @@
----
-sidebar_position: 2
----
-
-# Use Computed Data
+# Computed Data
 
 Computed Data 是 @interaqt/runtime 中的核心概念，@interaqt/runtime 提供了一些列工具来帮助你定义数据内容“是什么”。
 定义完成之后，数据应该如何变化就是自动的了。这也是和其他框架最大的区别。

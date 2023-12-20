@@ -9,7 +9,7 @@ sidebar_position: 1
 2. Ensure the latest version of [Node.js](https://nodejs.org) is installed.
 
 
-It's recommended to take a quick two-minute overview of Interaqt's [core concepts](../Concepts), which will aid in your subsequent usage.
+It's recommended to take a quick two-minute overview of Interaqt's [core concepts](../concepts), which will aid in your subsequent usage.
 
 ## 1. Creating a Project with npx
 

@@ -9,7 +9,7 @@ sidebar_position: 1
 2. 确保安装 [Node.js](https://nodejs.org) 最新版本。 
 
 
-建议先两分钟快速了解 Interaqt 的[核心概念](./Concepts)，这将有助于你接下来的使用。
+建议先两分钟快速了解 Interaqt 的[核心概念](./concepts)，这将有助于你接下来的使用。
 
 ## 1. 使用 npx 创建项目
 

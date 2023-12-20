@@ -16,8 +16,8 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
   docsSidebar: [
-    'GetStarted',
-    'Concepts',
+    'get-started',
+    'concepts',
     {
       type: 'category',
       label: 'Tutorial',
@@ -32,15 +32,15 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Guide',
       items: [
-        'guide/EntityAndRelation',
-        'guide/Interaction',
-        'guide/ComputedData',
-        'guide/Activity',
+        'guide/entity-and-relation',
+        'guide/interaction',
+        'guide/computed-data',
+        'guide/activity',
       ],
       collapsed: false
     },
-    'Interaqt-Go',
-    'Interaqt-Java',
+    'interaqt-go',
+    'interaqt-java',
   ],
 };
 
