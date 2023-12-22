@@ -31,13 +31,30 @@ export default function Home(): JSX.Element {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center ">
-                <div className=" text-lg font-mono  mb-6 max-w-2xl">
-                    To start understanding how to use Interaqt, refer to the Concepts documentation, or directly view the Use-With-ChatGPT document for a quick experience on how to create a functional system with ChatGPT in just a few minutes.
+            <div className="flex  items-center betw justify-center ml-auto mr-auto max-w-4xl">
+                <img src={"/img/architecture.png"} className="w-1/2"/>
+                <div className=" font-mono ml-6 ">
+                    <div>
+                        <strong>Interaqt</strong> is a project dedicated to maximizing the speed of application software development.
+                    </div>
+                    <div>
+                        To achieve this goal, Interaqt has developed a <strong>DSL (Domain-Specific Language)</strong> that is both intuitive and sufficiently formalized for describing business logic.
+                        It has also pioneered a revolutionary method and set of tools to generate appropriate architecture and code based on the user's DSL, along with considerations for performance and cost, while also facilitating automatic migration during changes.
+                    </div>
+                    <div>
+                        In the current release, users can begin to experience defining their business logic using the DSL.
+                        Upon completion of the description, a functional system (comprising a database, web server, and API) is immediately available.
+                        If you have access to ChatGPT4, you don't even need to understand DSL right away.
+                        By following the <strong>Use-With-ChatGPT</strong> document, you can have a functional system up and running in just <strong>a few minutes</strong>.
+                    </div>
                 </div>
+
+            </div>
+
+            <div className="flex flex-col items-center justify-center mt-10">
                 <div className="text-center mb-16">
-                    <a className="button button--secondary" href="/docs/concepts">Concepts</a>
-                    <a className="button button--secondary margin-left--xs" href="/docs/tutorial/use-with-gpt">Use With ChatGPT!</a>
+                    <button type="button" onClick={() => location.href="/docs/concepts"} className="cursor-pointer rounded-md bg-black px-3 border-0  py-2 text-sm font-semibold text-white ">Check out Concepts</button>
+                    <button type="button" onClick={() => location.href="/docs/tutorial/use-with-gpt"}  className="cursor-pointer  rounded-md border-0 bg-black px-3 py-2 text-sm font-semibold text-white ml-8">Use With ChatGPT!</button>
                 </div>
             </div>
 
