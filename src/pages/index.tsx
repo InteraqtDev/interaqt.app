@@ -31,9 +31,11 @@ export default function Home(): JSX.Element {
                 </div>
             </div>
 
-            <div className="flex  items-center betw justify-center ml-auto mr-auto max-w-4xl">
-                <img src={"/img/architecture.png"} className="w-1/2"/>
-                <div className=" font-mono ml-6 ">
+            <div className="lg:flex block items-center betw justify-center ml-auto mr-auto max-w-4xl">
+                <div className="lg:w-1/2 w-2/3 ml-auto mr-auto shrink-0">
+                    <img src={"/img/architecture.png"} className="w-full" />
+                </div>
+                <div className="font-mono ml-6 grow-0">
                     <div>
                         <strong>Interaqt</strong> is a project dedicated to maximizing the speed of application software development.
                     </div>
