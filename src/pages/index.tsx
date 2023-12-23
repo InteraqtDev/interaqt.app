@@ -40,7 +40,7 @@ export default function Home(): JSX.Element {
                         <strong>Interaqt</strong> is a project dedicated to maximizing the speed of application software development.
                     </div>
                     <div>
-                        To achieve this goal, Interaqt has developed a <strong>DSL (Domain-Specific Language)</strong> that is both intuitive and sufficiently formalized for describing business logic.
+                        To achieve this goal, Interaqt has developed a DSL-like data structure that is both intuitive and sufficiently formalized for describing business logic.
                         It has also pioneered a revolutionary method and set of tools to generate appropriate architecture and code based on the user's DSL, along with considerations for performance and cost, while also facilitating automatic migration during changes.
                     </div>
                     <div>
