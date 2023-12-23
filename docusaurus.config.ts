@@ -115,7 +115,7 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Interaqt, Inc. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
+      theme: prismThemes.vsDark,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/get-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial/quick-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tutorial/quick-example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
     "ts.external.directory.path": "/Users/camus/Work/interaqt-site/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -84,7 +86,7 @@
       <updated>1702734310032</updated>
       <workItem from="1702734311116" duration="14736000" />
       <workItem from="1702883835829" duration="11372000" />
-      <workItem from="1702975333180" duration="23952000" />
+      <workItem from="1702975333180" duration="25580000" />
     </task>
     <servers />
   </component>
