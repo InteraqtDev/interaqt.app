@@ -76,7 +76,7 @@ export default function Home(): JSX.Element {
                 </div>
             </div>
 
-            <div className="flex items-center justify-center ml-auto mr-auto max-w-4xl font-mono px-2">
+            <div className="flex items-center justify-center ml-auto mr-auto max-w-4xl font-mono px-2 mt-16">
                 <Translate id="index.subscription">
                     Interaqt is still rapidly evolving.
                     Enhanced architectural features, such as automatic cache design,
@@ -87,7 +87,7 @@ export default function Home(): JSX.Element {
 
             </div>
 
-            <div className="lg:flex block items-center betw justify-center ml-auto mr-auto max-w-4xl mb-8">
+            <div className="lg:flex block items-center justify-center ml-auto mr-auto max-w-4xl mb-32 ">
                 <div className="lg:w-1/2 w-full flex items-center justify-center">
                     <iframe width="540" height="305" src="https://c69f1b7e.sibforms.com/serve/MUIFAI_b368o6Z3MI530vVoUR64Xbew8fyQjvQy-3rp2GxTCTTkyP3ts2lJGvv77ClHUqgbkEfen1TArIJ6ilAd9CafREHGROziwFLJBQln6C6uqJXIO0mkQuU1KupUajekgosIn3Vtvb4sovd-P67Cc51OKO-QzQGl_qp3v6fR-qrrTH6111m56KTaaDehT4U9gU8dqWifi3bQF" frameBorder="0" scrolling="auto" allowFullScreen style={{display: "block", marginLeft: "auto", marginRight: "auto", maxWidth: "100%"}}></iframe>
                 </div>
