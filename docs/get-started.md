@@ -45,4 +45,13 @@ npm start
 Your application is now running at http://localhost:4000 by default.
 Your dashboard is now running at http://localhost:5173 by default.
 
-You may find a lot of examples under `examples` directory under your project root directory.
+You can view all the entities, relationships, interactions, and other information within the system from the dashboard. You can also create data and simulate user interactions through the dashboard.
+
+
+<img src="/img/dashboard.png" style={{width:"100%",maxWidth:640}} />
+
+<img src="/img/dashboard2.png" style={{width:"100%",maxWidth:640}} />
+
+
+
+The `/examples` directory contains many ready-to-use examples. You can copy the contents from there into `/app/index.ts` to test them.

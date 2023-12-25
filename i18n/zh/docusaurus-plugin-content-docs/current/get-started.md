@@ -46,5 +46,9 @@ cd dashboard
 npm start
 ```
 
-你可以在你项目的 `/examples` 目录中找到许多示例。
+<img src="/img/dashboard.png" style={{width:"100%",maxWidth:640}} />
+
+<img src="/img/dashboard2.png" style={{width:"100%",maxWidth:640}} />
+
+你可以在你项目的 `/examples` 目录中找到许多示例，将其中的内容粘贴到 `/app/index.ts` 文件中并重启项目即可进行测试。
 
