@@ -1,0 +1,29 @@
+{
+  "index.slogan": {
+    "message":"更适合大模型时代的应用框架"
+  },
+  "index.demo": {
+    "message": "使用 Interaqt 和 ChatGPT 在数分钟内创建一个可用的系统:"
+  },
+  "index.architecture1": {
+    "message": "是一个致力于将应用软件研发的速度提升到极致的项目。"
+  },
+  "index.architecture2": {
+    "message": "为实现这个目标，Interaqt 构建了一种符合自然习惯的，但又足够形式化的 DSL 来描述业务逻辑。同时创造了一种革命性的方法和工具更根据用户的 DSL 与性能、成本等需求来生成适合的架构及代码。并在变更时时实现自动迁移。"
+  },
+  "index.architecture31": {
+    "message": "在目前发布的版本中，用户已经可以开始体验使用 DSL 描述业务逻辑，描述完成后即得到可用的系统（数据库+Web Server+API）。如果你能使用 ChatGPT4，那么连 DSL 都可以先不用了解，按照"
+  },
+  "index.architecture32": {
+    "message": "文档可以在"
+  },
+  "index.architecture33": {
+    "message": "几分钟"
+  },
+  "index.architecture34": {
+    "message": "内就得到一个可用的系统。"
+  },
+  "index.subscription": {
+    "message": "Interaqt 还在高速迭代中。更强的架构能力(例如自动决定并读写缓存) 和对 Java、Go 等语言的支持将在 2024年夏天发布。欢迎订阅我们的 release event，或者在 github 上 star 本项目。你的反馈见将有助于我们更快地发布！"
+  }
+}
