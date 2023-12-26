@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Use With ChatGPT!
 
-## 0. Preliminary Steps
+## 0. Prerequisites
 1. You need access to GPT-4.
 2. Ensure the latest version of [Node.js](https://nodejs.org) is installed.
 
