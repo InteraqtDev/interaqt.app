@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Better application framework for LLM era.">
+            description="Better application framework for LLM era. CMS alternative. Web framework. NodeJS framwork">
             <main className="flex flex-col items-center justify-center sm:py-72 py-32 ">
                 <div className="max-w-2xl min-w-xl w-2/3">
                     <img src="/img/logo.svg" className="w-full"/>
