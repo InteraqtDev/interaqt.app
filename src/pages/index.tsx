@@ -71,7 +71,7 @@ export default function Home(): JSX.Element {
 
             <div className="flex flex-col items-center justify-center mt-10 font-mono">
                 <div className="text-center mb-16">
-                    <button type="button" onClick={() => location.href="/docs/concepts"} className="cursor-pointer rounded-md bg-black px-3 border-0  py-2 text-sm font-semibold text-white ">Check out Concepts</button>
+                    <button type="button" onClick={() => location.href="/docs/concepts"} className="cursor-pointer rounded-md bg-black px-3 border-0  py-2 text-sm font-semibold text-white ">Get Started</button>
                     <button type="button" onClick={() => location.href="/docs/tutorial/use-with-gpt"}  className="cursor-pointer  rounded-md border-0 bg-black px-3 py-2 text-sm font-semibold text-white ml-8">Use With ChatGPT!</button>
                 </div>
             </div>
