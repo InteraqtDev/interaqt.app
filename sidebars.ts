@@ -24,7 +24,6 @@ const sidebars: SidebarsConfig = {
       items: [
           'tutorial/quick-example',
           'tutorial/use-with-gpt',
-          'tutorial/create-a-cms-in-5-min',
       ],
       collapsed: false
     },
@@ -36,6 +35,16 @@ const sidebars: SidebarsConfig = {
         'guide/interaction',
         'guide/computed-data',
         'guide/activity',
+        'guide/web-server'
+      ],
+      collapsed: false
+    },
+    {
+      type: 'category',
+      label: 'Advanced',
+      items: [
+        'advanced/use-logto-as-authentication-system',
+        'advanced/create-a-cms-in-5-min',
       ],
       collapsed: false
     },
