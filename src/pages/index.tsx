@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
                     <div>
                         <strong>Interaqt</strong>
                         <Translate id="index.architecture1">
-                            is a project dedicated to maximizing the speed of application software development.
+                            &nbsp;is a project dedicated to maximizing the speed of application software development.
                         </Translate>
                     </div>
                     <div>
@@ -52,13 +52,13 @@ export default function Home(): JSX.Element {
                             If you have access to ChatGPT4, you don't even need to understand DSL right away.
                             By following the
                         </Translate>
-                        <strong>Use-With-ChatGPT</strong>
+                        <strong>&nbsp;Use-With-ChatGPT</strong>
                         <Translate id="index.architecture32">
                         document, you can have a functional system up and running in just
                         </Translate>
                         <strong>
                             <Translate id="index.architecture33">
-                                a few minutes
+                                &nbsp;a few minutes
                             </Translate>
                         </strong>
                         <Translate id="index.architecture34">
