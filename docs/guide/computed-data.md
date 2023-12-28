@@ -1,6 +1,10 @@
 #  Computed Data
 
-Computed Data is a core concept in @interaqt/runtime. The @interaqt/runtime provides a series of tools to help you define what the data content is. Once defined, how data changes become automatic. This is also a major difference from other frameworks. Below are all the types of computed data provided by the system. Note that the term 'Record' here is a general term for Entity and Relation.
+Computed Data is a core concept in @interaqt/runtime. 
+The @interaqt/runtime provides a series of tools to help you define what the data content is. 
+Once defined, how data changes become automatic. It is just like reactivity in backend. 
+This is also a major difference from other frameworks.
+Below are all the types of computed data provided by the system. Note that the term 'Record' here is a general term for Entity and Relation.
 
 ## Computed Data Representing Entity/Relation Data
 
