@@ -4,7 +4,13 @@
 
 ![](../static/img/concepts-1.png)
 
-This diagram encapsulates the core concepts of Interaqt. Interaqt perceives the current state of a system as a computational result of the initial state combined with intermediate interactive events, or as a result based on other current states. Traditionally, programming approaches have focused on writing code for specific interactive events to modify data. Interaqt, however, requires only the "definition" of data. How data should change in response to certain interactions happens automatically.
+This diagram encapsulates the core concepts of Interaqt. 
+Interaqt perceives the current state of a system as a computational result of the initial state combined with intermediate interactive events, 
+or as a result based on other current states. 
+Traditionally, programming approaches have focused on writing code for specific interactive events to modify data. 
+Interaqt, however, requires only the "definition" of data. 
+How data should change in response to certain interactions happens automatically.
+If you're familiar with reactive programming, you can think of Interaqt as bringing reactive programming to the backend!
 
 For instance, in a multi-person approval system, approval is granted only when all parties agree. In traditional programming:
 

@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial/create-a-cms-in-5-min.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced/create-a-cms-in-5-min.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/tutorial/create-a-cms-in-5-min.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/advanced/create-a-cms-in-5-min.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebars.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/concepts.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concepts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/concepts.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/concepts.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1702883835829" duration="11372000" />
       <workItem from="1702975333180" duration="26203000" />
       <workItem from="1703385907511" duration="57000" />
-      <workItem from="1703489110149" duration="21061000" />
+      <workItem from="1703489110149" duration="21909000" />
     </task>
     <servers />
   </component>

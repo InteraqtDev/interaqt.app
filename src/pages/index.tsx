@@ -54,7 +54,7 @@ export default function Home(): JSX.Element {
                         </Translate>
                         <strong>&nbsp;Use-With-ChatGPT</strong>
                         <Translate id="index.architecture32">
-                        document, you can have a functional system up and running in just
+                            &nbsp;document, you can have a functional system up and running in just
                         </Translate>
                         <strong>
                             <Translate id="index.architecture33">
