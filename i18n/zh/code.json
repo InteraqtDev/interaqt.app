@@ -24,6 +24,6 @@
     "message": "内就得到一个可用的系统。"
   },
   "index.subscription": {
-    "message": "Interaqt 还在高速迭代中。更强的架构能力(例如自动决定并读写缓存) 和对 Java、Go 等语言的支持将在 2024年夏天发布。欢迎订阅我们的 release event，或者在 github 上 star 本项目。你的反馈见将有助于我们更快地发布！"
+    "message": "Interaqt NodeJS 版已发布。更强的架构能力(例如自动决定并读写缓存) 和对 Java、Go 等语言的支持将在 2024年夏天发布。欢迎订阅我们的 release event，或者在 github 上 star 本项目。你的反馈见将有助于我们更快地发布！"
   }
 }

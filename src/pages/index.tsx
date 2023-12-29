@@ -78,7 +78,7 @@ export default function Home(): JSX.Element {
 
             <div className="flex items-center justify-center ml-auto mr-auto max-w-4xl font-mono px-2 mt-16">
                 <Translate id="index.subscription">
-                    Interaqt is still rapidly evolving.
+                    Interaqt NodeJS version is fully released.
                     Enhanced architectural features, such as automatic cache design,
                     along with support for languages like Java and Go,
                     are set to be released in the summer of 2024. We invite you to subscribe to our release event or star our project on GitHub.
