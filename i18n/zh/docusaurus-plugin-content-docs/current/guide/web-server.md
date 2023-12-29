@@ -21,7 +21,7 @@ Interaqt 导出了一个 `startServer` 函数，你可以用它来快速创建 s
 
 
 ## 自定义 api
-Interaqt 会默认为所有的  Interaction 创建同名的路由，例如 `createRequest` 会创建 `POST /api/createRequest` 的路由。
+Interaqt 会默认为所有的  Interaction 创建同名的路由，例如 `createRequest` 会创建 `POST /interaction/createRequest` 的路由。
 如果你有需要手动创建路由，可以通过第三参数传入。
 我们可以使用 `createDataAPI` 直接将函数暴露成 api，其中传入的参数如果实现了 fromValue 和 toValue 方法，会自动进行序列化和反序列化。
 一个直接暴露  record 查询接口的例子。其中的 BoolExp 类实现了 fromValue 和 toValue 方法。

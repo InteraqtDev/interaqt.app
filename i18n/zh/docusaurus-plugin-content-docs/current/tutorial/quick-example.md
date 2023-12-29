@@ -277,6 +277,6 @@ Step9: 在前端使用接口触发交互动作
 
 所有的交互动作都会产生独立的接口：
 ```
-/api/[interaction-name]
+/interaction/[interaction-name]
 ```
 可通过前端访问。你可以可以通过 dashboard 管理界面来查看所有的交互动作接口以及实体关系信息。

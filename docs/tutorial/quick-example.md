@@ -283,7 +283,7 @@ const totalApprovedState = State.create({
 All interaction actions will generate independent interfaces:
 
 ```
-/api/[interaction-name]
+/interaction/[interaction-name]
 ```
 
 They can be accessed from the frontend. You can view all interaction action interfaces and entity relationship

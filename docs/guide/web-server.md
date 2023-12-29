@@ -23,7 +23,7 @@ We recommend using a complete registration and security system, such as logto/au
 
 ## Custom APIs
 Interaqt automatically creates routes with the same name for all Interactions. 
-For example, createRequest will create the route `POST /api/createRequest`. 
+For example, createRequest will create the route `POST /interaction/createRequest`. 
 If you need to manually create routes, you can pass them as the third parameter. 
 We can use `createDataAPI` to directly expose functions as APIs. 
 If the passed parameters implement the `fromValue` and `toValue` methods, they will be automatically serialized and deserialized. 

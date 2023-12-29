@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/code.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/code.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/web-server.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/web-server.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial/quick-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tutorial/quick-example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/advanced/use-logto-as-authentication-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/advanced/use-logto-as-authentication-system.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/get-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/web-server.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/web-server.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/tutorial/quick-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/tutorial/quick-example.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/camus/Work/interaqt-site/docs/guide",
+    "last_opened_file_path": "/Users/camus/Work/interaqt-site",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -89,7 +93,8 @@
       <workItem from="1702883835829" duration="11372000" />
       <workItem from="1702975333180" duration="26203000" />
       <workItem from="1703385907511" duration="57000" />
-      <workItem from="1703489110149" duration="22121000" />
+      <workItem from="1703489110149" duration="28522000" />
+      <workItem from="1703840815793" duration="135000" />
     </task>
     <servers />
   </component>

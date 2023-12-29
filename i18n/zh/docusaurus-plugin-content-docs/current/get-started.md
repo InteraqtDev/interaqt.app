@@ -38,7 +38,6 @@ package.json 中已经预定好初始化数据库和启动的命令。我们可�
 npm run dev  
 ```
 
-完成启动后，你将可以通过 `http://localhost:3000/api` 接口。
 你可以通过以下命令启动 dashboard 管理界面来查看所有信息
 
 ```bash
