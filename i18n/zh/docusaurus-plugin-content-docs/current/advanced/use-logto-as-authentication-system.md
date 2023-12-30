@@ -1,6 +1,6 @@
 # 使用 Logto 作为权限和用户系统
 
-# 0. 安装与准备
+## 0. 安装与准备
 logto 提供了用户登录注册的界面、api 权限验证的能力。
 建议使用 docker 安装 logto。参看 [https://docs.logto.io/docs/tutorials/get-started/#local](https://docs.logto.io/docs/tutorials/get-started/#local)
 安装成功后，一般通过 `http:127.0.0.1:3002`可以访问到 logto admin console。
@@ -19,7 +19,7 @@ API 调用:
 </p>
 
 
-# 1. 在 logto 中创建 vanilla js 应用。
+## 1. 在 logto 中创建 vanilla js 应用。
 
 在 logto 中创建一个应用，选择 vanilla js，获得 app_id。该应用用于前端处理用户的登录和注册。
 在下面的代码中，由前端来处理的登录跳转等逻辑，使用的都是这个 Vanilla JS 应用的 app_id。
@@ -28,7 +28,7 @@ API 调用:
 <img src="/img/logto-vanilla-app.png" style={{maxWidth:640,width:"100%"}} />
 </p>
 
-# 2. 在 logto 中创建 Machine to Machine 应用
+## 2. 在 logto 中创建 Machine to Machine 应用
 
 该应用用于 Interaqt 从 logto 同步用户数据和调用  api 时的鉴权。
 在下面的代码中，由后端来处理的鉴权等逻辑，使用的都是这个Machine to Machine应用的 app_id 的 app_secret
@@ -37,14 +37,14 @@ API 调用:
 <img src="/img/logto-m2m-app.png" style={{maxWidth:640,width:"100%"}} />
 </p>
 
-# 3. 在 logto 中创建 api resource
+## 3. 在 logto 中创建 api resource
 
 用于对 api 调用的进行保护。
 <p align="left">
 <img src="/img/logto-api-resource.png" style={{maxWidth:640,width:"100%"}} />
 </p>
 
-# 4. 配置 logto new account webhook
+## 4. 配置 logto new account webhook
 让 logto 在新用户注册时自动把新用户信息同步给 Interaqt。
 
 <p align="left">
@@ -58,7 +58,7 @@ http://host.docker.internal:4000/api/syncUser
 
 至此，所有的 logto 配置都已结束。
 
-# 5. 在 `server.ts` 中创建 `/api/syncUser` 接口
+## 5. 在 `server.ts` 中创建 `/api/syncUser` 接口
 利用 Interaqt 的 custom api 来创建`/api/syncUser` 接口，该接口用于接受 webhook 的请，将 logto 的信息用户信息同步到 Interaqt。
 Webhook 中的字段信息请参看 [https://docs.logto.io/docs/recipes/webhooks/webhook-request/](https://docs.logto.io/docs/recipes/webhooks/webhook-request/)
 
@@ -77,7 +77,7 @@ startServer(controller, {
 }, apis)
 ```
 
-# 6. 在前端使用 @interaqt/utility 判断用户是否登录
+## 6. 在前端使用 @interaqt/utility 判断用户是否登录
 
 在前端中使用 `@interaqt/utility` 封装的 sdk 来判断用户的登录情况。
 注意这里使用的 APP_ID 是上面创建的 Vanilla JS 应用的。
@@ -93,7 +93,7 @@ if (await client.client.isAuthenticated()) {
 }
 ```
 
-# 7. 使用 @interaqt/utility 提供的 api 的函数来发起 interaqt api 请求。
+## 7. 使用 @interaqt/utility 提供的 api 的函数来发起 interaqt api 请求。
 
 Interaqt 已经在 `@interaqt/utility` 中为你封装好了自动附加 access token 的 `post` 函数，在前端你只需要调用就可以了。
 注意这里使用的 APP_ID 是上面创建的 Vanilla JS 应用的。
@@ -106,7 +106,7 @@ const result = await client.post('/interaction/sendFriendRequest', {})
 ```
 
 
-# 8. 在 Interaqt server.ts 调用 @interaqt/utility 提供的 api，用于对 api 访问进行鉴权。
+## 8. 在 Interaqt server.ts 调用 @interaqt/utility 提供的 api，用于对 api 访问进行鉴权。
 在 `server.ts` 中同样使用 @interaqt/utility 即可。
 注意这里使用的 APP_ID 和 APP_SECRET 是上面创建的 Machine to Machine 应用的。
 
