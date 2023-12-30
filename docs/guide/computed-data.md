@@ -18,7 +18,7 @@ export const requestEntity = Entity.create({
         items: [
             MapActivityItem.create({
                 activity: createFriendRelationActivity,
-                triggerInteractions: [sendInteraction, approveInteraction, rejectInteraction],  // 触发数据计算的 interation
+                triggerInteractions: [sendInteraction, approveInteraction, rejectInteraction],  // interations that trigger data computation
                 map: function map(stack) {  // compute data
                     const sendRequestEvent = stack.find((i: any) => i.interaction.name === 'sendRequest')
 
@@ -62,11 +62,11 @@ const sendRequestRelation = Relation.create({
     computedData: MapInteraction.create({
         items: [
             MapInteractionItem.create({
-                interaction: createInteraction,   // 监听的 Interaction
+                interaction: createInteraction,   // interaction that triggers data computation
                 map: function map(event: any) {
                     return {
                         source: event.payload.request,
-                        createdAt: Date.now().toString(), // 记录在关系上的数据。
+                        createdAt: Date.now().toString(), // data recorded on the relation
                         target: event.user,
                     }
                 }
@@ -326,7 +326,7 @@ RequestEntity.properties.push(
         type: 'string',
         collection: false,
         computed: (request: any) => {
-            // 这里可以直接读取到 request 的值，并进行计算
+            // Here you can directly read the value of request and perform computation
             return request.approved ? 'approved' : (request.rejected ? 'rejected' : 'pending')
         }
     }),

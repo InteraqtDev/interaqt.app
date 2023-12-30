@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/advanced/use-logto-as-authentication-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced/use-logto-as-authentication-system.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/advanced/use-logto-as-authentication-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/advanced/use-logto-as-authentication-system.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/computed-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/computed-data.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <workItem from="1703385907511" duration="57000" />
       <workItem from="1703489110149" duration="28522000" />
       <workItem from="1703840815793" duration="188000" />
-      <workItem from="1703855477893" duration="9365000" />
+      <workItem from="1703855477893" duration="10050000" />
     </task>
     <servers />
   </component>
