@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/web-server.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/web-server.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial/quick-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tutorial/quick-example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/advanced/use-logto-as-authentication-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/advanced/use-logto-as-authentication-system.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/advanced/use-logto-as-authentication-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/advanced/use-logto-as-authentication-system.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/get-started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/web-server.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/web-server.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/tutorial/quick-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/tutorial/quick-example.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/camus/Work/interaqt-site",
+    "last_opened_file_path": "/Users/camus/Work/interaqt-site/static/img",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,10 +63,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/docs/guide" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide" />
-      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -94,7 +90,8 @@
       <workItem from="1702975333180" duration="26203000" />
       <workItem from="1703385907511" duration="57000" />
       <workItem from="1703489110149" duration="28522000" />
-      <workItem from="1703840815793" duration="135000" />
+      <workItem from="1703840815793" duration="188000" />
+      <workItem from="1703855477893" duration="8354000" />
     </task>
     <servers />
   </component>
