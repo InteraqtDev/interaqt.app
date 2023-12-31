@@ -2,28 +2,45 @@
   "index.slogan": {
     "message":"更适合大模型时代的应用框架"
   },
-  "index.demo": {
-    "message": "使用 Interaqt 和 ChatGPT 在数分钟内创建一个可用的系统:"
+  "index.abstraction.title": {
+    "message": "更好的抽象"
   },
-  "index.architecture1": {
-    "message": "是一个致力于将应用软件研发的速度提升到极致的项目。"
+  "index.abstraction.content1": {
+    "message": "不再是 MVC。Interaqt 使用 实体、交互、活动更贴近业务表达的概念来描述业务逻辑。Interaqt 自动根据业务逻辑定义设计数据库表结构、自动进行做权限计算、自动对数据进行增删改查。减少开发者 80% 不重要的技术细节工作。"
   },
-  "index.architecture2": {
-    "message": "为实现这个目标，Interaqt 构建了一种符合自然习惯的，但又足够形式化的 DSL 来描述业务逻辑。同时创造了一种革命性的方法和工具更根据用户的 DSL 与性能、成本等需求来生成适合的架构及代码。并在变更时时实现自动迁移。"
+  "index.abstraction.content2": {
+    "message": "Interaqt 的概念非常贴近自然语言表达的业务逻辑。以至于无需单独训练模型，你现在就可以让 ChatGPT 来帮你使用 Interaqt 的概念来描述业务逻辑，在数分钟内就能得到一个完全可运行的系统。查看下面的视频或者"
   },
-  "index.architecture31": {
-    "message": "在目前发布的版本中，用户已经可以开始体验使用 DSL 描述业务逻辑，描述完成后即得到可用的系统（数据库+Web Server+API）。如果你能使用 ChatGPT4，那么连 DSL 都可以先不用了解，按照"
+  "index.abstraction.content3": {
+    "message": "文档"
   },
-  "index.architecture32": {
-    "message": "文档可以在"
+  "index.abstraction.content4": {
+    "message": "了解更多。"
   },
-  "index.architecture33": {
-    "message": "几分钟"
+  "index.reactivity.title": {
+    "message": "响应式后端"
   },
-  "index.architecture34": {
-    "message": "内就得到一个可用的系统。"
+  "index.reactivity.content": {
+    "message": "Interaqt 将响应式编程带到了后端。实现了只需要描述数据是什么，而不是如何操作数据。Interaqt会根据数据的响应式定义自动做增量计算，保证所有场景都有极佳的性能。"
   },
-  "index.subscription": {
-    "message": "Interaqt NodeJS 版已发布。更强的架构能力(例如自动决定并读写缓存) 和对 Java、Go 等语言的支持将在 2024年夏天发布。欢迎订阅我们的 release event，或者在 github 上 star 本项目。你的反馈见将有助于我们更快地发布！"
+  "index.automation.title": {
+    "message": "自动化架构"
+  },
+  "index.automation.content": {
+    "message": "Interaqt 实现了性能、成本需求与业务逻辑表达完全分离。能根据性能、成本需求实现自动架构设计。并随着应用用户、数据增长自动实现架构迁移。"
+  },
+
+  "index.language.title": {
+    "message": "多编程语言支持"
+  },
+
+  "index.language.content": {
+    "message": "Interaqt 提供的抽象是编程语言无关的。NodeJS 版本的 Interaqt 已经发布，你现在就可以开始使用。Go、Python、Java 版本的  Interaqt 预计将于 2024 年夏天发布！"
+  },
+  "index.subscribe.title": {
+    "message": "支持我们"
+  },
+  "index.subscribe.content": {
+    "message": "欢迎订阅我们的 release event，或者在 github 上 star 本项目。你的反馈见将有助于我们更快地发布！"
   }
 }

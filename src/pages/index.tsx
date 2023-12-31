@@ -19,82 +19,131 @@ export default function Home(): JSX.Element {
                 </div>
 
             </main>
-            <div className="text-center text-lg font-mono font-bold mb-6">
-                <Translate id="index.demo">Using Interaqt and ChatGPT to create a fully functional system in minutes:</Translate>
-            </div>
-            <div className="flex justify-center mb-16">
-                <div className="max-w-4xl  ring ring-1 ring-gray-200 rounded inset-0 block">
-                    <video src="/demo-square-compressed.mp4" controls className="w-full"/>
-                </div>
-            </div>
-
             <div className="lg:flex block items-center betw justify-center ml-auto mr-auto max-w-4xl">
-                <div className="lg:w-1/2 w-2/3 ml-auto mr-auto shrink-0">
-                    <img src={"/img/architecture.png"} className="w-full" />
-                </div>
-                <div className="font-mono ml-6 grow-0">
-                    <div>
-                        <strong>Interaqt</strong>
-                        <Translate id="index.architecture1">
-                            &nbsp;is a project dedicated to maximizing the speed of application software development.
+                <div className="font-mono ">
+                    <h1>
+                        <Translate id="index.abstraction.title">
+                            Better Abstractions
+                        </Translate>
+                    </h1>
+                    <div className="text-gray-600">
+                        <Translate id="index.abstraction.content1">
+                            Moving beyond MVC, Interaqt embraces entities, interactions, and activities for an intuitive business logic alignment.
+                            This simplifies database design, permissions, and data management, cutting down 80% of non-essential technicalities for developers.
                         </Translate>
                     </div>
-                    <div>
-                        <Translate id="index.architecture2">
-                            To achieve this goal, Interaqt has developed a DSL-like data structure that is both intuitive and sufficiently formalized for describing business logic.
-                            It has also pioneered a revolutionary method and set of tools to generate appropriate architecture and code based on the user's business logic, along with considerations for performance and cost, while also facilitating automatic migration during changes.
+                    <div className="text-gray-600 mt-4">
+                        <Translate id="index.abstraction.content2">
+                            Interaqt's principles reflect natural language, enabling immediate use of ChatGPT for business logic description without extra training.
+                            Quickly create a fully operational system with Interaqt's streamlined process.
+                            Checkout the video or
                         </Translate>
-                     </div>
-                    <div>
-                        <Translate id="index.architecture31">
-                            In the current release, users can begin to experience defining their business logic using the DSL.
-                            Upon completion of the description, a functional system (comprising a database, web server, and API) is immediately available.
-                            If you have access to ChatGPT4, you don't even need to understand DSL right away.
-                            By following the
-                        </Translate>
-                        <strong>&nbsp;Use-With-ChatGPT</strong>
-                        <Translate id="index.architecture32">
-                            &nbsp;document, you can have a functional system up and running in just
-                        </Translate>
-                        <strong>
-                            <Translate id="index.architecture33">
-                                &nbsp;a few minutes
+                        <a href="/docs/tutorial/use-with-gpt">
+                            <Translate id="index.abstraction.content3">
+                                tutorial
                             </Translate>
-                        </strong>
-                        <Translate id="index.architecture34">
-                            .
+                        </a>
+                        <Translate id="index.abstraction.content4">
+                            to see how it works.
                         </Translate>
                     </div>
                 </div>
 
             </div>
+            <div className="flex justify-center mt-6 ">
+                <div className="max-w-4xl   inset-0 block overflow-hidden pb-0"><video src="/demo-square-compressed.mp4" controls className="w-full mb-0"/></div>
+            </div>
 
-            <div className="flex flex-col items-center justify-center mt-10 font-mono">
-                <div className="text-center mb-16">
-                    <button type="button" onClick={() => location.href="/docs/concepts"} className="cursor-pointer rounded-md bg-black px-3 border-0  py-2 text-sm font-semibold text-white ">Get Started</button>
-                    <button type="button" onClick={() => location.href="/docs/tutorial/use-with-gpt"}  className="cursor-pointer  rounded-md border-0 bg-black px-3 py-2 text-sm font-semibold text-white ml-8">Use With ChatGPT!</button>
+            <div className="max-w-4xl ml-auto mr-auto mt-36">
+                <h1>
+                    <Translate id="index.reactivity.title">
+                        Reactivity In Backend
+                    </Translate>
+                </h1>
+                <div className="lg:flex block justify-center ml-auto mr-auto max-w-4xl">
+                    <div className="lg:w-1/2 w-1/2 ml-auto mr-auto shrink-0">
+                        <img src={"/img/reactivity.png"} className="w-full" />
+                    </div>
+                    <div className="font-mono text-gray-600 grow-0 lg:w-1/3 w-full">
+                        <Translate id="index.reactivity.content">
+                            Interaqt transforms backend development with reactive programming,
+                            prioritizing data definition over manipulation.
+                            Its approach to reactive data ensures efficient incremental calculations and peak performance in all scenarios.
+                        </Translate>
+
+                    </div>
+
                 </div>
             </div>
 
-            <div className="flex items-center justify-center ml-auto mr-auto max-w-4xl font-mono px-2 mt-16">
-                <Translate id="index.subscription">
-                    Interaqt NodeJS version is fully released.
-                    Enhanced architectural features, such as automatic cache design,
-                    along with support for languages like Java and Go,
-                    are set to be released in the summer of 2024. We invite you to subscribe to our release event or star our project on GitHub.
-                    Your valuable feedback will help us launch even faster!
-                </Translate>
 
+            <div className="max-w-4xl ml-auto mr-auto mt-36">
+                <h1>
+                    <Translate id="index.automation.title">
+                        Automatic Architecture Design
+                    </Translate>
+                </h1>
+                <div className="block justify-center ml-auto mr-auto max-w-4xl">
+                    <div className="font-mono text-gray-600 w-full mb-4">
+                        <Translate id="index.automation.content">
+                            Performance and cost considerations are distinct from business logic in Interaqt's design.
+                            It specializes in automated architecture, dynamically adapting to user and data expansion.
+                        </Translate>
+
+                    </div>
+                    <div className="lg:w-1/2 w-2/3 ml-auto mr-auto shrink-0">
+                        <img src={"/img/architecture.png"} className="w-full" />
+                    </div>
+                </div>
             </div>
 
-            <div className="lg:flex block items-center justify-center ml-auto mr-auto max-w-4xl mb-32 ">
-                <div className="lg:w-1/2 w-full flex items-center justify-center">
-                    <iframe width="540" height="305" src="https://c69f1b7e.sibforms.com/serve/MUIFAI_b368o6Z3MI530vVoUR64Xbew8fyQjvQy-3rp2GxTCTTkyP3ts2lJGvv77ClHUqgbkEfen1TArIJ6ilAd9CafREHGROziwFLJBQln6C6uqJXIO0mkQuU1KupUajekgosIn3Vtvb4sovd-P67Cc51OKO-QzQGl_qp3v6fR-qrrTH6111m56KTaaDehT4U9gU8dqWifi3bQF" frameBorder="0" scrolling="auto" allowFullScreen style={{display: "block", marginLeft: "auto", marginRight: "auto", maxWidth: "100%"}}></iframe>
+            <div className="ml-auto mr-auto max-w-4xl font-mono px-2 mt-36 ">
+                <h1>
+                    <Translate id="index.language.title">
+                        Multiple language support
+                    </Translate>
+                </h1>
+                <div className="text-gray-600">
+                    <Translate id="index.language.content">
+                        Interaqt's abstraction transcends specific programming languages. The NodeJS iteration of Interaqt is now available for use. Anticipate the launch of its Go, Python, and Java versions in the summer of 2024!
+                    </Translate>
                 </div>
-                <div className="lg:w-1/2 w-full flex items-center justify-center">
-                    <button type="button" onClick={() => location.href="https://github.com/InteraqtDev/interaqt"}  className="cursor-pointer  rounded-md border-0 bg-black px-4 py-4 text-sm font-semibold text-white ">Github Star!</button>
+                <div className="flex items-center justify-center justify-between mt-10">
+                    <img src={"/img/lan-node-logo.png"} className="h-16" />
+                    <img src={"/img/lan-go-logo.png"} className="h-16" />
+                    <img src={"/img/lan-python-logo.png"} className="h-16" />
+                    <img src={"/img/lan-java-logo.png"} className="h-16" />
                 </div>
             </div>
+
+            <div className="block font-mono ml-auto mr-auto max-w-4xl mt-36">
+                <button type="button" onClick={() => location.href="/docs/concepts"} className="cursor-pointer rounded-md bg-black px-4 border-0  py-3 text-lg font-semibold text-white ">Get Started!</button>
+            </div>
+
+            <div className="block font-mono ml-auto mr-auto max-w-4xl w-full  mt-36 ">
+                <h1>
+                    <Translate id="index.subscribe.title">
+                        Support Us
+                    </Translate>
+                </h1>
+                <div className="text-gray-600">
+                    <Translate id="index.subscribe.content">
+                        We invite you to subscribe to our release event or star our project on GitHub.
+                        Your valuable feedback will help us launch even faster!
+                    </Translate>
+
+                </div>
+
+                <div className="lg:flex block items-center justify-center ml-auto mr-auto max-w-4xl mb-32 ">
+                    <div className="lg:w-1/2 w-full flex items-center justify-center">
+                        <iframe width="540" height="305" src="https://c69f1b7e.sibforms.com/serve/MUIFAI_b368o6Z3MI530vVoUR64Xbew8fyQjvQy-3rp2GxTCTTkyP3ts2lJGvv77ClHUqgbkEfen1TArIJ6ilAd9CafREHGROziwFLJBQln6C6uqJXIO0mkQuU1KupUajekgosIn3Vtvb4sovd-P67Cc51OKO-QzQGl_qp3v6fR-qrrTH6111m56KTaaDehT4U9gU8dqWifi3bQF" frameBorder="0" scrolling="auto" allowFullScreen style={{display: "block", marginLeft: "auto", marginRight: "auto", maxWidth: "100%"}}></iframe>
+                    </div>
+                    <div className="lg:w-1/2 w-full flex items-center justify-center">
+                        <button type="button" onClick={() => location.href="https://github.com/InteraqtDev/interaqt"}  className="cursor-pointer  rounded-md border-0 bg-black px-4 py-4 text-sm font-semibold text-white ">Github Star!</button>
+                    </div>
+                </div>
+            </div>
+
 
 
         </Layout>
