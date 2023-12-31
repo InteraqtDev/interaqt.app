@@ -40,7 +40,7 @@ export default function Home(): JSX.Element {
                         </Translate>
                         <a href="/docs/tutorial/use-with-gpt">
                             <Translate id="index.abstraction.content3">
-                                tutorial
+                                &nbsp;tutorial&nbsp;
                             </Translate>
                         </a>
                         <Translate id="index.abstraction.content4">
