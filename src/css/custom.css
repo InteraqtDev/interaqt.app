@@ -33,6 +33,10 @@
   font-size: 14px;
 }
 
+.navbar__logo{
+  height: 3rem;
+}
+
 @tailwind base; /* Preflight will be injected here */
 
 @tailwind components;

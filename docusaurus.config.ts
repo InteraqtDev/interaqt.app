@@ -60,8 +60,8 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo-small-white.svg',
+        alt: 'Interaqt Logo',
+        src: 'img/logo-small-black.svg',
       },
       items: [
         {
