@@ -41,6 +41,16 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Reference',
+      items: [
+        'reference/database',
+        'reference/storage',
+        'reference/api-response',
+      ],
+      collapsed: false
+    },
+    {
+      type: 'category',
       label: 'Advanced',
       items: [
         'advanced/use-logto-as-authentication-system',
