@@ -62,6 +62,7 @@ const config: Config = {
       logo: {
         alt: 'Interaqt Logo',
         src: 'img/logo-small-black.svg',
+        srcDark: 'img/logo-small-white.svg',
       },
       items: [
         {
@@ -115,7 +116,7 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Interaqt, Inc. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.vsDark,
+      theme: prismThemes.dracula,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
