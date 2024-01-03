@@ -54,3 +54,5 @@ startServer(controller, {
     }
 }, apis)
 ```
+
+In Custom API, `Controller.system.storage` is often used to fetch or update data. For specific APIs, refer to [reference/storage](../reference/storage).

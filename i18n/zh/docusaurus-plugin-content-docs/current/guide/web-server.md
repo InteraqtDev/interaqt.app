@@ -51,3 +51,6 @@ startServer(controller, {
 }, apis)
 
 ```
+
+在 Custom API 中常常会使用到 `Controller.system.storage` 来处理数据，具体的 API 参考 [reference/storage](../reference/storage.md)。
+
