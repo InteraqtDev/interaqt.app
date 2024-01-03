@@ -55,7 +55,7 @@ const sidebars: SidebarsConfig = {
       label: 'Advanced',
       items: [
         'advanced/use-logto-as-authentication-system',
-        'advanced/create-a-cms-in-5-min',
+        'advanced/create-a-cms-in-10-min',
       ],
       collapsed: false
     },
