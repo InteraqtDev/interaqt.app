@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/interaction.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/interaction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/web-server.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/web-server.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/interaction.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/interaction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/web-server.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide/web-server.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <workItem from="1704027969985" duration="1476000" />
       <workItem from="1704100378177" duration="598000" />
       <workItem from="1704112968980" duration="5689000" />
-      <workItem from="1704179278733" duration="15705000" />
+      <workItem from="1704179278733" duration="16115000" />
     </task>
     <servers />
   </component>
