@@ -45,6 +45,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'reference/database',
         'reference/storage',
+        'reference/boolexp',
         'reference/api-response',
       ],
       collapsed: false

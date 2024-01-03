@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5ea4ee0-3526-4534-ada4-8209dd1a4724" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/storage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/reference/storage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/reference/storage.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/reference/storage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebars.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/camus/Work/interaqt-site/static/img",
+    "last_opened_file_path": "/Users/camus/Work/interaqt-site/docs/reference",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/reference" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/reference" />
       <recent name="$PROJECT_DIR$/docs/guide" />
-      <recent name="$PROJECT_DIR$/i18n/zh/docusaurus-plugin-content-docs/current/guide" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/advanced" />
@@ -101,7 +104,7 @@
       <workItem from="1704027969985" duration="1476000" />
       <workItem from="1704100378177" duration="598000" />
       <workItem from="1704112968980" duration="5689000" />
-      <workItem from="1704179278733" duration="16115000" />
+      <workItem from="1704179278733" duration="16779000" />
     </task>
     <servers />
   </component>
