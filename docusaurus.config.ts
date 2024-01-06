@@ -55,6 +55,9 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {name: 'keywords', content: 'reactive,framework,reactive framework,reactive backend framework,web framework,reactive web framework,orm,orm alternative,cms,cms alternative,reactive programming,sqlite,postgreSQL,MySQL,LLM'},
+    ],
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
