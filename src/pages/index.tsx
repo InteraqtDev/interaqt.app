@@ -144,10 +144,7 @@ export default function Home(): JSX.Element {
                 </div>
 
                 <div className="lg:flex block items-center justify-center ml-auto mr-auto max-w-4xl mb-32 ">
-                    <div className="lg:w-1/2 w-full flex items-center justify-center">
-                        <iframe width="540" height="305" src="https://c69f1b7e.sibforms.com/serve/MUIFAI_b368o6Z3MI530vVoUR64Xbew8fyQjvQy-3rp2GxTCTTkyP3ts2lJGvv77ClHUqgbkEfen1TArIJ6ilAd9CafREHGROziwFLJBQln6C6uqJXIO0mkQuU1KupUajekgosIn3Vtvb4sovd-P67Cc51OKO-QzQGl_qp3v6fR-qrrTH6111m56KTaaDehT4U9gU8dqWifi3bQF" frameBorder="0" scrolling="auto" allowFullScreen style={{display: "block", marginLeft: "auto", marginRight: "auto", maxWidth: "100%"}}></iframe>
-                    </div>
-                    <div className="lg:w-1/2 w-full flex items-center justify-center">
+                    <div className="lg:w-1/2 w-full flex items-center justify-center mt-10">
                         <button type="button" onClick={() => location.href="https://github.com/InteraqtDev/interaqt"}  className="cursor-pointer  rounded-md border-0 bg-black px-4 py-4 text-sm font-semibold text-white ">Github Star!</button>
                     </div>
                 </div>
